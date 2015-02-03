@@ -5,12 +5,12 @@ highlight_color: '#3498db'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
-  github: swanson
+  github: xw393
   #bitbucket: philipj
-  hacker_news: swanson
+  hacker_news: xw393
   #stackexchange: 348619
   #stackoverflow: 348619
-  twitter: _swanson
+  twitter: xw393
   #facebook: zuck
   #tumblr: animalygifs
   #linkedin: philipjagielski
@@ -18,9 +18,9 @@ social:
   #gravatar: 86e6ff8f75f9daef42d53b7f8002fd95
 
 # "Hi, I'm _______"
-name: Matt Swanson
-email: test@example.com
-tagline: "weak opinions, strongly held"
+name: Xiao Wang
+email: xw393@cornell.edu
+tagline: "Ambition is a permanant dissatisfaction with the present."
 
 # Google Analytics key, leave blank to ignore
 google_analytics_key: UA-xxxx-x
