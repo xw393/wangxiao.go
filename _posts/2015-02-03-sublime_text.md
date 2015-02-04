@@ -10,10 +10,30 @@ categories:
 首先需要安装Package Control, 通过Package Control 安装ST的插件
 安装方法如下：
 
+######方法一
 1. 点击 `Preference/Browse Packages`;
 2. 跳转到上一级目录，并进入 `Installed Packages/`;
 3. 下载 `Control.sublime-package` 并置于 `Installed Packages/`;
 4. 重启 ST.  
+
+######方法二
+1. 点击 `View`之后，找到`show console`选项(或者快捷键```Ctrl +	` ```);
+2. 在Sublime Text最下方会出现输入命令的窗口，复制如下代码:
+
+对于Sublime Text 3:
+{% highlight python %}
+
+import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
+
+{% endhighlight %}
+
+对于Sublime Text 2:
+
+{% highlight python %}
+import urllib2,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')
+{% endhighlight %}
+
+程序运行之后会自动下载并安装`Package Control`, 运行完成之后关闭Sublime Text 然后重启该软件即可。
 
 至此，在 `Preferences` 下就能看到 `Package Control` 的按钮了，使用`Ctrl + Shift + p (C-S-p for Short)` 调出命令面板，输入 `Package Control:` 即可看到它的全部功能。这一命令面板在你今后的使用中会不断给你带来惊喜。  
 （注：一个不错的关于Sublime Text的[BLOG](http://liam0205.me/Sublime-elegant/)）
