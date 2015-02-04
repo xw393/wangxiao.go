@@ -1,17 +1,30 @@
+<html>
+<head>
+<style type="text/css">
+p.serif{font-family:"Times New Roman",Georgia,Serif}
+p.sansserif{font-family:Arial,Verdana,Sans-serif}
+p.thiner {font-weight:300;}
+p.normal {font-weight:normal;}
+p.thick {font-weight:bold;}
+p.thicker {font-weight:900;}
+</style>
+</head>
+
 <nav>
   <h1>Greetings!</h1>
   <a href="/">
     {% if site.data.theme.social.gravatar %}
     <img src="http://www.gravatar.com/avatar/{{ site.data.theme.social.gravatar }}?s=200" id="gravatar" alt="My photo"/>
     {% else %}
-    <img src="/logo.png" id="logo" alt="Blog logo" widht="150" height="150"/>
+    <img src="/logo.png" id="logo" alt="Blog logo" width="190" height="190"/>
     {% endif %}
   </a>
   <h2>I'm <a href="/">{{ site.data.theme.name }}</a>.</h2>
   <div id="bio">
-    <p>I'm a data science enthusiast, R lover and a researcher in financial economics.
+    <p class="sansserif">I'm a data science enthusiast, R lover and a researcher in Financial Economics.
     </p>
-    <p>Contact me through the E-mail:xw221.cornell@gmail.com </p>
+
+    <p>Contact me: <a href="mailto:xw221.cornell@gmail.com"> E-mail</a></p>
 
   </div>
   <div id="social">
