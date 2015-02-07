@@ -4,4 +4,4 @@ url: example.com
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
 
-img_url: https://github.com/xw393/xw393.github.io/assets/images
+img_url: https://github.com/xw393/xw393.github.io/tree/master/assets/images
