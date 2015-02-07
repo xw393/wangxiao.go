@@ -12,7 +12,7 @@ categories:
 
 * 然后在命令提示行中将工作目录设置在包含get-pip.py的文件夹，输入如下命令安装：`python get-pip.py`
  
-* **注意:** 如果在安装或者使用 `pip`等命令时出现“permission denied”提示，则表明需要管理员权限，只需要在命令提示航中输入:  `sudo python get-pip.py`  
+* **注意:** 如果在安装或者使用 `pip`等命令时出现“permission denied”提示，则表明需要管理员权限，只需要在命令提示行中输入:  `sudo python get-pip.py`  
 (即在命令前加`sudo`,根据提示输入管理员密码之后则可成功安装所需要的文件。)  
 
 **安装 python packages**  
