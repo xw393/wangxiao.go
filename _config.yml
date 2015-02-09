@@ -1,12 +1,4 @@
 # General Jekyll Config
-
-title : My Blog =)
-author :
-	name : Xiao Wang
-	email : xw221.corenll@gmail.com
-	github : xw393
-	twitter: XiaoWang_Shaw
-
 highlighter: pygments
 url: example.com
 lsi: false
