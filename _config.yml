@@ -1,8 +1,7 @@
 # General Jekyll Config
 
-title: My Blog =)
-
-author:
+title : My Blog =)
+author :
 	name : Xiao Wang
 	email : xw221.corenll@gmail.com
 	github : xw393
@@ -12,5 +11,4 @@ highlighter: pygments
 url: example.com
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
-
 img_url: https://github.com/xw393/xw393.github.io/tree/master/assets/images
