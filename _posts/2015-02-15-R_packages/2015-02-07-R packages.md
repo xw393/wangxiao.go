@@ -29,7 +29,7 @@ devtools::install_github(c("ramnathv/htmlwidgets", "rstudio/dygraphs"))
 {% endhighlight %}
 
 (2) **[ggvis](http://ggvis.rstudio.com)**  
-gigs is a data visualization package for R which lets you:
+gigs is a data visualization package for R which lets you:  
 - Declarativly describe data graphics with a syntax similar in spirit to ggplot2.  
 - Create rich interactive graphics that you can play with locally in RStuido. [1]
 
