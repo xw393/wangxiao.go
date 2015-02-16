@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1.title {
-  font-weight: 800;
+  font-weight: 600;
 }
 
 h1 {
@@ -88,7 +88,7 @@ ul.posts span {
   font-family: 'Lucida Console', 'Andale Mono', monospace;
   color: #aaa;
   padding-right: 5px;
-  font-size:14px;
+  font-size:16px;
 }
 
 .meta {
@@ -117,12 +117,12 @@ nav h1, nav h2 {
 
 #social {
   margin-bottom: 10px;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 #post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
+  border: 2px solid #d0e8f6;
+  background-color: #ddf;
   padding: 0 .4em;
   margin-bottom: 20px !important;
 }
@@ -133,9 +133,9 @@ nav h1, nav h2 {
 }
 
 #post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  font-size: 85%;
+  border: 2px solid #d0e8f6;
+  background-color: #ddf;
+  font-size: 90%;
   padding: 0 .2em;
 }
 
@@ -145,7 +145,7 @@ nav h1, nav h2 {
 
 .sidebar {
   padding-top: 25px;
-  font-family: "open sans", sans-serif;
+  font-family: "Apple Chancery", sans-serif;
 }
 
 .sidebar p {
@@ -157,7 +157,7 @@ nav h1, nav h2 {
 }
 
 .content {
-  font: 400 16px/22px "open sans", sans-serif;
+  font: 500 16px/22px "sans-serif", sans-serif;
   border-left: 1px solid #DDD;
   padding-left: 40px;
   padding-top: 25px;
