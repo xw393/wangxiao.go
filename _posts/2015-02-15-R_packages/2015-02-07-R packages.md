@@ -34,7 +34,6 @@ gigs is a data visualization package for R which lets you:
 - Create rich interactive graphics that you can play with locally in RStuido. [1]
 
 
-<div id="examples-of-ggvis-graphics" class="section level2">
 <h2>Examples of ggvis graphics</h2>
 </ul>
 </nav>
@@ -189,9 +188,6 @@ ggvis.getPlot("plot_id383717576").parseSpec(plot_id383717576_spec);
 <p>Scatterplot with smooth curve and interactive control:</p>
 <iframe id="histogram" src="https://winston.shinyapps.io/ggvis-quick-examples-smooth-span/?viewer_pane=1" style="border: none; width: 400px; height: 400px"></iframe>
 
-
-</body>
-</html>
 
 *Source:* [RStudio](www.rstudio.com)
 
