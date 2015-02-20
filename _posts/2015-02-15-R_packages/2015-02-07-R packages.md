@@ -23,7 +23,7 @@ categories:
 #### Data Visualization:
 (1) **[dygraphs](http://rstudio.github.io/dygraphs/)**: Javascript-based plot tools, elegant and powerful.   
 
-{% highlight R %}  
+{% highlight python %}  
 install.packages("dygraphs")  
 devtools::install_github(c("ramnathv/htmlwidgets", "rstudio/dygraphs"))  
 {% endhighlight %}
@@ -46,7 +46,7 @@ gigs is a data visualization package for R which lets you:
 (3) **[DiagrammeR](http://rich-iannone.github.io/DiagrammeR/docs.html)**  
 Note: [DiagrammeR Tutorial](https://github.com/rich-iannone/DiagrammeR)
   
-{% highlight R %}  
+{% highlight python %}  
 devtools::install_github('rich-iannone/DiagrammeR')
 install.packages('DiagrammeR') 
 {% endhighlight %}

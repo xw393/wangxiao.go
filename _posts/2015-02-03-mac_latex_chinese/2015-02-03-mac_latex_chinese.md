@@ -8,7 +8,7 @@ categories:
 
 Latex是一款非常强大的排版工具，由该软件进行排版版面看起来会十分美观。该软件尤其在编辑数学公式方面具有方便快捷的特点。随着使用Mac的用户越来越多，相信也会有很多人开始使用MacTex进行排版。但是MacTex默认输出为英文，在排版中文时会出现中文字体无法显示等问题。本文中所展示的代码可以轻松进行中文的输出，同时也可以解决字体调整问题，代码如下：
 
-{% highlight latex %}
+{% highlight python %}
 % !TEX encoding = System
 % !TEX program = xelatex
 \documentclass[12pt,a4paper]{article}
