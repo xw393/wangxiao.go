@@ -29,6 +29,7 @@ plot(density(sample(rnorm(10),size = 100, replace = TRUE),kernel = "gaussian"),
 
 - Operator-based pipeline (`%>>%`).  
 {% highlight python %}  
+library(pipeR)  
 data <- rnorm(10) %>>%
   sample(size = 100, replace = TRUE) %>>%
   density(kernel = "gaussian") %>>%
