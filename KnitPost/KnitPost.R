@@ -7,3 +7,5 @@ KnitPost <- function(input, base.url = "/") {
   render_jekyll()
   knit(input, envir = parent.frame())
 }
+
+KnitPost("2015-04-08-project.Rmd")
