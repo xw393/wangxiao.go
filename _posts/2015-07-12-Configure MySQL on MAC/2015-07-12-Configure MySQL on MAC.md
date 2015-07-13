@@ -1,6 +1,6 @@
 ---
 layout: post
-title:"Configure MySQL on MAC"
+title: "Configure MySQL on MAC"
 ---
 
 In the root directory, open the `.bash_profile` to add the MySQL path in it.
