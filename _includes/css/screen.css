@@ -84,8 +84,8 @@ ul.posts {
 }
 
 ul.posts li {
-  line-height: 22px;
-  font-size: 16px;
+  line-height: 18px;
+  font-size: 14px;
   margin-bottom: 0px;
 }
 
@@ -93,7 +93,8 @@ ul.posts span {
   font-family: 'Lucida Console', 'Andale Mono', monospace;
   color: #aaa;
   padding-right: 5px;
-  font-size:16px;
+  font-size:800 14px;
+  font: 800 14px/20px "sans-serif", sans-serif;
 }
 
 .meta {
@@ -129,7 +130,7 @@ nav h1, nav h2 {
   border: 1px solid #90c9ea;
   background-color: #f8f8f8;
   padding: 0.5em;
-  margin-bottom: 20px !important;
+  margin-bottom: 10px !important;
   color: #000000
 }
 
@@ -139,11 +140,11 @@ nav h1, nav h2 {
 }
 
 #post code {
-  font-family: 'Lucida Console', 'Andale Mono', monospace;
+  font-family: 'Monaco', 'Andale Mono', monospace;
   border-radius: 4px;
   border: 1px solid #90c9ea;
   background-color: solid #f8f8f8;
-  font-size: 15px;
+  font-size: 14px;
   padding: 0.15em;
   margin-bottom: 20px !important;
 }
@@ -168,8 +169,8 @@ nav h1, nav h2 {
 }
 
 .content {
-  font: 100 16px/20px "sans-serif", sans-serif;
-  border-left: 1px solid #DDD;
+  font: 200 16px/18px "sans-serif", sans-serif;
+  border-left: 2px solid #DDD;
   padding-left: 40px;
   padding-top: 25px;
   min-height: 400px;

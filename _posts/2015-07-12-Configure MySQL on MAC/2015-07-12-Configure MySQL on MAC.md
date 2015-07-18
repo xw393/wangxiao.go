@@ -143,8 +143,8 @@ ImportError: dlopen(/Users/***/.python-eggs/MySQL_python-1.2.3-py2.7-macosx-10.7
   Don't worry. The solution is easy. Just open the terminal and execute command:
   
   {% highlight python %}
-  sudo ln -s /usr/local/mysql/lib/libmysqlclient.18.dylib /usr/lib/libmysqlclient.18.dylib
-  sudo ln -s /usr/local/mysql/lib /usr/local/mysql/lib/mysql
+sudo ln -s /usr/local/mysql/lib/libmysqlclient.18.dylib /usr/lib/libmysqlclient.18.dylib
+sudo ln -s /usr/local/mysql/lib /usr/local/mysql/lib/mysql
   {% endhighlight %}
   
   Then re-open your Python and import the package again, I think the problem will probably be solved. Yeah! :)
