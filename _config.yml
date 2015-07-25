@@ -1,6 +1,7 @@
-# General Jekyll Config
+author: Gaston Sanchez
+description: My personal website and blog about data analysis, applied statistics, R
 highlighter: pygments
-url: example.com
-lsi: false
-exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
-img_url: https://github.com/xw393/xw393.github.io/tree/master/assets/images
+permalink: /blog/:categories/:year/:month/:day/:title.html
+markdown: kramdown
+exclude: ["Rmd", ".DS_Store", "README.md"]
+excerpt_separator: <!--more-->
