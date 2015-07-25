@@ -1,4 +1,4 @@
-author: Gaston Sanchez
+author: Xiao Wang
 description: My personal website and blog about data analysis, applied statistics, R
 highlighter: pygments
 permalink: /blog/:categories/:year/:month/:day/:title.html
