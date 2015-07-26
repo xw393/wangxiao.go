@@ -150,27 +150,10 @@ ImportError: dlopen(/Users/***/.python-eggs/MySQL_python-1.2.3-py2.7-macosx-10.7
   
 Don't worry. The solution is easy. Just open the terminal and execute command:  
 
-{% highlight bash%}   
+{% highlight bash %}   
 > sudo ln -s /usr/local/mysql/lib/libmysqlclient.18.dylib /usr/lib/libmysqlclient.18.dylib
 
 > sudo ln -s /usr/local/mysql/lib /usr/local/mysql/lib/mysql
-{% endhighlight%}
-
-
-Just want to have a test whether the code highlight works, so show some python code below.
-
-{% highlight python %}
-import numpy
-from scipy import stats
-import pandas
-import matplotlib.pyplot as plt
-
-print 'Hello, world!!'
-
-x = 11111
-b = 2222
-y = x + b
-
 {% endhighlight %}
 
 Then re-open your Python and import the package again, I think the problem will probably be solved. Yeah! :)

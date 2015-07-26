@@ -3,8 +3,7 @@ title: Blog
 layout: page
 ---
 
-# Data Analysis Visually EnfoRced
-
+# Data Analysis & Quant. Finance
 <div id="posts">
 
     {% for post in site.posts offset: 0 limit: 3 %}
