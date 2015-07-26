@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hello World! 你好，世界！
-date: 2015-07-25
+date: 2015-02-23
 category: Intro
 tags: [introduction]
 ---

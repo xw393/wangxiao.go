@@ -71,7 +71,7 @@ if you're interested in:
 - Seminars
 - Joint Research
 
-```gaston.stat at gmail.com```
+```wangxiao.stat@gmail.com```
 
 
 
@@ -99,7 +99,7 @@ projects in order. This is easier said than done.
 
 ## Colophon
 
-I design and develop this site using [Jekyll](https://github.com/mojombo/jekyll), following 
+I develop this site using [Jekyll](https://github.com/mojombo/jekyll), following 
 this [styleguide](/styleguide). 
 Hosting by [github pages](https://pages.github.com). Source available on 
 [github](https://github.com/gastonstat/gastonstat.github.io). 

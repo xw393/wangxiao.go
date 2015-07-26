@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Sublime Text Packages (持续更新)
+title: Sublime Text Packages
 date: 2015-02-06
 categories: how-to
 tags: [sublime text, packages]

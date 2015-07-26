@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python Package的安装方法
-date: 2015-07-21
+date: 2015-02-08
 categories: How-to
 tags: [python]
 ---
