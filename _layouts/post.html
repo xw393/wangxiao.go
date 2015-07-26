@@ -6,7 +6,7 @@ layout: page
 	<h1> {{ page.title }} </h1>
 	<!-- <span class="date">Posted on {{ page.date | date_to_string }}</span> -->
 	<h5>Posted on {{ page.date | date: "%B %d, %Y" }}</h5>
-	
+
 	{{ content }}
 
 </div>
@@ -15,7 +15,7 @@ layout: page
 <p></p>
 
 <div class="meta">
-	
+
 	{% if page.categories %}
 	<span class="categories">
 		Published in categories
@@ -24,10 +24,10 @@ layout: page
 		{% endfor %}
 	</span>
 	{% endif %}
-	
+
 	{% if page.tags %}
 	<span class="tags">
-		Tagged with 
+		Tagged with
 		{% for tag in page.tags %}
 		<a href="{{ site.url }}/blog/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
 		{% endfor %}
@@ -49,3 +49,19 @@ layout: page
 	<a class="greenbutton" href="/blog/archive/" title="an archive of all posts">See all posts &rarr;</a>
 	</p>
 </div>
+
+<br/>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'wangxiaoisme';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
