@@ -60,7 +60,7 @@ projects in order.
 
 ## Colophon
 
-This site is Hosting by [github pages](https://pages.github.com), and built with [Jekyll](https://github.com/mojombo/jekyll) using the theme available on [Gaston's github](https://github.com/gastonstat/gastonstat.github.io). 
+This site is hosted by [github pages](https://pages.github.com), and built with [Jekyll](https://github.com/mojombo/jekyll) using the theme available on [Gaston's github](https://github.com/gastonstat/gastonstat.github.io). 
 
 
 Unless specified otherwise, content on this site is licensed under a 
