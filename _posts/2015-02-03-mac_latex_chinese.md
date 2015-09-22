@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Mac版本中Tex如何输入中文字体(模板)
+title: Output Chinese words with Latex on Mac(Template)
 date: 2015-02-03
 categories: how-to
 tags: [tex, Mac]
 ---
 
-Latex是一款非常强大的排版工具，由该软件进行排版版面看起来会十分美观。该软件尤其在编辑数学公式方面具有方便快捷的特点。随着使用Mac的用户越来越多，相信也会有很多人开始使用MacTex进行排版。但是MacTex默认输出为英文，在排版中文时会出现中文字体无法显示等问题。本文中所展示的代码可以轻松进行中文的输出，同时也可以解决字体调整问题，代码如下：
+Latex is a powerful tools to create beautiful documents. Especially for creating files that contain a lot of mathematical symbols. When working on latex file on Mac, some problems will occur when one want to output files with chinese words. In order to display chinese words in Latex file, you can use the following template:
 
 {% highlight latex %}
 % !TEX encoding = System
@@ -29,7 +29,7 @@ Latex是一款非常强大的排版工具，由该软件进行排版版面看起
 %==========================
 %\usepackage{xeCJK}
 %\setCJKmainfont{SimSun}
-%这里同样可以设置中文字体
+%Setting fonts of Chinese
 %==========================
 \topmargin=-1.5cm %设置距顶距离
 \renewcommand{\baselinestretch}{1.5} %设置行距

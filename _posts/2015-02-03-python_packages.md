@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python Package的安装方法
+title: How to install Python Package
 date: 2015-02-08
 categories: How-to
 tags: [python]
@@ -10,16 +10,15 @@ tags: [python]
 
 <hr/>
 
-###pip 方式
+###pip Method
 
-* 先进行pip工具的安装：首先下载 [get-pip.py](https://pip.pypa.io/en/latest/installing.html)  
+* First, install `pip`：one can download the tools from [get-pip.py](https://pip.pypa.io/en/latest/installing.html)  
 
-* 然后在命令提示行中将工作目录设置在包含get-pip.py的文件夹，输入如下命令安装：`python get-pip.py`
+* In the terminal, set the working directory that contains the `get-pip.py` file, and then type the command `python get-pip.py`. Then the tool will be successfully installed.
  
-* **注意:** 如果在安装或者使用 `pip`等命令时出现“permission denied”提示，则表明需要管理员权限，只需要在命令提示行中输入:  `sudo python get-pip.py`  
-(即在命令前加`sudo`,根据提示输入管理员密码之后则可成功安装所需要的文件。)  
+* **Note:** When you are installing the `pip`, there is a warning like `permission denied`, which means you need the administrator's right to install the tool. Don't worry, just typing `sudo python get-pip.py` and providing your password of the computer, then the tool will be install successfully.
 
-**安装 python packages**  
+**Install python packages**  
 
 {% highlight python %}
 pip install Somepackages # Latest Version
@@ -28,17 +27,17 @@ pip install Some >== 1.0.4 # Minimum Version
 {% endhighlight %}
 
 
-例如:  
+For example:  
 `pip install numpy`
 <br />
 
-**更新 python packages**  
+**Update python packages**  
 ```
 pip install -U Package Name
 ```
 <br />
 
-**移除 python packages**    
+**Remove python packages**    
 ```
 pip uninstall PackageName
 ```
