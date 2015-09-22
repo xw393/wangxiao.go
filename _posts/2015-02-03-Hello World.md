@@ -6,21 +6,17 @@ category: Intro
 tags: [introduction]
 ---
 
-### 为赋新词强说愁
+### "Life is short, you need learn to write 'hello world!'"
 
 <hr/>
 
-好久没有正儿八经的写过一些文字了，原本打算在这个网页搭建好之后酝酿一下感情，肆意的让我风骚一把，以抒发我这个文科生许久没有释放的情怀。但是！酝酿半天，发现自己已经远非当年在高中读文科的时候，能够那般文思泉涌，能够那般汪洋恣肆，能够那般为赋新词强说愁了。归根结底是因为什么呢？
+I am an enthusiast in learning and applying new techniques. Encouraged by a friend who is proficient in various programming languages and data science techniques, I began setting this personal website hosted on the [GitHub Pages](http://www.github.com). It is quite fantastic to build a website with Jekyll, html and CSS. After several times failures and reading codes and templates on the GitHub, finally, the website you are seeing is my work.
 
-想了半天，我终于发现了原因：
+Since I have keen interest in data analysis and quantitative finance, the contents of my posting are related to these topics. In addition, I love programming with R and Python, therefore, there are some postings related to R and Python.
 
-我实在太久没有进行写作，文笔已经退化到没有了。
+Writing articles and share my own thoughts and ideas is a good way to learn. If anyone has some questions and doubts on my postings, don't hesitate to tell me, and it will be reallt appreciated.
 
-我承认我是个逗逼。
-
-开篇就先灌水了。先占着位置，等到以后想起来了再更新吧。
-
-么么哒。
+Welcome to my personal website: [Data Analysis and Quantitative Finance](http://wangxiaois.me)
 
 
 
