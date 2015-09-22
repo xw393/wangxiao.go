@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Crwaling and Storing Data with R and MySQL
+title: Crawling and Storing Data with R and MySQL
 date: 2015-08-15
 categories: how-to
 tags: [crawling data, R, MySQL]
