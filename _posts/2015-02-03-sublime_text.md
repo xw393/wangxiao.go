@@ -15,7 +15,7 @@ First of all, one need to install `Package Control` package, and utilizing this 
 
 The installation methods are as follow:
 
-######方法一
+######Method 1
 1. Click `Preference/Browse Packages`;
 2. Go back to parent directory and enter in the folder `Installed Packages/`;
 3. Download `Control.sublime-package` and unarchived the files into `Installed Packages/`;
