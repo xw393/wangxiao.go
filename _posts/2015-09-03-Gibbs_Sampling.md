@@ -62,7 +62,7 @@ def gibbs(bvn, n):
 
 (_Note:_ Before using the Gibbs Sampling program shown above, one must create a new class bvn which contains BivariateNormal methods and plot_bvn_rho,plot_bvn methods. This class can be found in my [GitHub](http://github.com/xw393))
 
-Setting the correlation between the two random variables is \\(\rho = 0.5\\) and marginal mean, variance of these two random variables, we generate 400 samples.
+Set the correlation between the two random variables as \\(\rho = 0.5\\) and marginal mean, variance, we generate 400 samples.
 
 {% highlight python %}
 rho = 0.5 # Set rho = 0.5 to make Gibbs Sampling.
