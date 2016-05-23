@@ -1,6 +1,6 @@
 author: Xiao Wang
 description: My personal website and blog about data analysis, applied statistics, R
-highlighter: pygments
+highlighter: rouge
 permalink: /blog/:categories/:year/:month/:day/:title.html
 markdown: kramdown
 exclude: ["Rmd", ".DS_Store", "README.md"]
