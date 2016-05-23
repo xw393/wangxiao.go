@@ -6,14 +6,14 @@ categories: how-to
 tags: [Python, Parallel Computing, Efficiency]
 ---
 
-```python
+{% highlight python %}
 import time
 import threading
 import queue
-```
+{% endhighlight%}
 
 
-```python
+{% highlight python %}
 class Consumer(threading.Thread):
 
     def __init__(self, queue):
@@ -30,10 +30,10 @@ class Consumer(threading.Thread):
             print('I am a thread, and I received %s!!' %msg)
 
         print('Bye guys!')
-```
+{% endhighlight%}
 
 
-```python
+{% highlight python %}
 def Producer():
     Queue = queue.Queue()
 
@@ -52,13 +52,13 @@ def Producer():
 
     worker.join()
 
-```
+{% endhighlight%}
 
 
-```python
+{% highlight python %}
 if __name__ == '__main__':
     Producer()
-```
+{% endhighlight%}
 
     I am a thread, and I received Something at 1463965241.8577423!!
     I am a thread, and I received Something at 1463965242.8580678!!
@@ -71,14 +71,14 @@ if __name__ == '__main__':
 ### Another instance for multi-threads
 
 
-```python
+{% highlight python %}
 from multiprocessing import Pool
 from multiprocessing.dummy import Pool as ThreadPool
 import urllib.request as request
-```
+{% endhighlight%}
 
 
-```python
+{% highlight python %}
 urls = [ 'http://www.python.org',
         'http://www.python.org/about/',
         'http://www.onlamp.com/pub/a/python/2003/04/17/metaclasses.html',
@@ -92,15 +92,15 @@ urls = [ 'http://www.python.org',
         'http://www.python.org/psf/',
         'http://docs.python.org/devguide/',
         'http://www.python.org/community/awards/']
-```
+{% endhighlight%}
 
 
-```python
+{% highlight python %}
 tPool = ThreadPool(8)
-```
+{% endhighlight%}
 
 
-```python
+{% highlight python %}
 start_time = time.time()
 
 results = tPool.map(request.urlopen, urls)
@@ -112,7 +112,7 @@ end_time = time.time()
 elapsed = end_time - start_time
 
 print("Elapsed is %s" % round(elapsed, 4))
-```
+{% endhighlight%}
 
     Elapsed is 1.346
 
@@ -125,9 +125,9 @@ print("Elapsed is %s" % round(elapsed, 4))
 - Pool 8: Elapsed is 1.1929352283477783
 
 
-```python
+{% highlight python %}
 round(2.222222222, 2)
-```
+{% endhighlight%}
 
 
 
@@ -137,9 +137,9 @@ round(2.222222222, 2)
 
 
 
-```python
+{% highlight python %}
 results
-```
+{% endhighlight%}
 
 
 
@@ -161,13 +161,13 @@ results
 
 
 
-```python
+{% highlight python %}
 url1 = results[0]
 
 a = url1.read()
 
 a
-```
+{% endhighlight%}
 
 
 
